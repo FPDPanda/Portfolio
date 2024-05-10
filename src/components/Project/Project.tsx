@@ -29,7 +29,7 @@ const Project: FC<ProjectProps> = ({ imageUrl, title, description, href }) => (
     <ProjectTitleWrapper>{title}</ProjectTitleWrapper>
     <ProjectDescriptionWrapper>{description}</ProjectDescriptionWrapper>
     <ProjectButtonWrapper href={href} target="_blank" rel="noreferrer nofollow">
-      Ir para a página
+      Go to project page
     </ProjectButtonWrapper>
   </ProjectItemWrapper>
 );
