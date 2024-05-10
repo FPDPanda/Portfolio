@@ -30,25 +30,53 @@ const AboutMe: FC<AboutMeProps> = ({ reference }) => (
       />
     </div>
     <article id="aboutme_text">
-      <h1>Sobre Mim</h1>
+      <h1>About me</h1>
       <p>
-        Sou autodidata, focado, objetivo e sempre com o mindset de aluno.
-        Planejo aprender cada vez mais e estou sempre aberto à oportunidades de
-        aprender e trabalhar nessa área.
+        With over 4 years of software development expertise, I excel in crafting
+        robust solutions using JavaScript, TypeScript, Angular, React, C# .NET,
+        and AWS.
       </p>
-      <h2>Curiosidades</h2>
+      <p>
+        I am passionate about problem-solving and delivering clean, scalable
+        solutions. I thrive on transforming ideas into reality, with a keen eye
+        for project intricacies.
+      </p>{" "}
+      <p>
+        Currently, I am leveraging Angular 14 and C# .NET Core 6 as a full-stack
+        developer, implementing serverless architectures hosted on AWS.
+      </p>
+      <h2>Key Skills & Technologies</h2>
       <ul id="trivia">
         <li className="triviabits">
-          - Cursei minha faculdade nos estados unidos, sempre fui apaixonado
-          jogos, computadores, celulares e tecnologia.
+          Languages & Frameworks: JavaScript, TypeScript, Angular, React, C#
+          .NET
+        </li>
+        <li className="triviabits">
+          Cloud Platforms: AWS (serverless architectures, deployment, and
+          management), Firebase
+        </li>
+        <li className="triviabits">
+          Front-End Development: HTML5, SaSS, DevExpress, Material UI,
+          Bootstrap, Tailwind, CoreUI, Figma, Micro-frontend
+        </li>
+        <li className="triviabits">
+          Tools & Methodologies: Agile development, Scrum, Git, DevOps practices
+        </li>
+      </ul>
+      <h2>Trivia</h2>
+      <ul id="trivia">
+        <li className="triviabits">
+          - I am Brazilian but I went to college in the United States.
         </li>
         <br />
         <li className="triviabits">
-          - A primeira linguagem de programação que aprendi foi C.
+          - I have always loved games, computers, smartphones and technology in
+          general.
         </li>
         <br />
         <li className="triviabits">
-          - Sei um pouco de Python, banco de dados e análise de dados.
+          - The first time i earned money with my programs was doing freelance
+          work.
         </li>
         <br />
       </ul>
