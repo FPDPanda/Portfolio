@@ -1,6 +1,5 @@
 import React, { FC, MutableRefObject } from "react";
 import { NavigationWrapper } from "./Navigation.styled";
-import { Link } from "react-router-dom";
 import scrollController from "../../features/ScrollControllerFeature";
 
 interface NavigationProps {
