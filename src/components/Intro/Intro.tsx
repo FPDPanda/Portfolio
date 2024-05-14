@@ -19,7 +19,7 @@ const Intro: FC<IntroProps> = ({ reference }) => (
         i'm Jean.
       </IntroTitleWrapper>
       <br />
-      <IntroSubtitleWrapper>Web Developer</IntroSubtitleWrapper>
+      <IntroSubtitleWrapper>Software Developer</IntroSubtitleWrapper>
     </IntroTextWrapper>
   </IntroWrapper>
 );
