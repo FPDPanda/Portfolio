@@ -32,51 +32,57 @@ const AboutMe: FC<AboutMeProps> = ({ reference }) => (
     <article id="aboutme_text">
       <h1>About me</h1>
       <p>
-        With over 4 years of software development expertise, I excel in crafting
-        robust solutions using JavaScript, TypeScript, Angular, React, C# .NET,
-        and AWS.
+        With 7+ years of professional experience, I specialize in full-stack
+        development with Angular and C# .NET, serverless AWS architectures, and
+        high-performance systems. I work on mission-critical financial
+        infrastructure at scale and am currently focused on applied AI and
+        agentic systems.
       </p>
       <p>
-        I am passionate about problem-solving and delivering clean, scalable
-        solutions. I thrive on transforming ideas into reality, with a keen eye
-        for project intricacies.
-      </p>{" "}
+        I'm drawn to the unglamorous parts of engineering: query plans, message
+        pipelines, and the architecture decision that quietly removes a class of
+        bugs. Most of what I build lives in private repos — the projects below
+        are public, runnable versions of the patterns I use day to day.
+      </p>
       <p>
-        Currently, I am leveraging Angular 14 and C# .NET Core 6 as a full-stack
-        developer, implementing serverless architectures hosted on AWS.
+        Currently building NL→SQL orchestration layers, multi-agent systems, and
+        LLM integrations using the Claude API and MCP — in production and as
+        open-source portfolio projects.
       </p>
       <h2>Key Skills & Technologies</h2>
       <ul id="trivia">
         <li className="triviabits">
-          Languages & Frameworks: JavaScript, TypeScript, Angular, React, C#
-          .NET
+          Languages & Frameworks: TypeScript, C# / .NET, Python, Angular, React
         </li>
         <li className="triviabits">
-          Cloud Platforms: AWS (serverless architectures, deployment, and
-          management), Firebase
+          Cloud & Infrastructure: AWS (Lambda, SNS/SQS, DynamoDB, API Gateway,
+          RDS, CloudFormation), Azure, Docker, Kubernetes
         </li>
         <li className="triviabits">
-          Front-End Development: HTML5, SaSS, DevExpress, Material UI,
-          Bootstrap, Tailwind, CoreUI, Figma, Micro-frontend
+          Architecture: Microservices, CQRS, Event Sourcing, BFF, Serverless,
+          Message Pipelines (RabbitMQ, SQS/SNS), DDD
         </li>
         <li className="triviabits">
-          Tools & Methodologies: Agile development, Scrum, Git, DevOps practices
+          AI & Agentic: Claude API, MCP, RAG, NL→SQL orchestration, multi-agent
+          systems
+        </li>
+        <li className="triviabits">
+          Tools: Agile/Scrum, Git, CI/CD, Azure DevOps, Datadog, Dynatrace
         </li>
       </ul>
       <h2>Trivia</h2>
       <ul id="trivia">
         <li className="triviabits">
-          - I am Brazilian but I went to college in the United States.
+          - I am Brazilian but went to college in the United States.
         </li>
         <br />
         <li className="triviabits">
-          - I have always loved games, computers, smartphones and technology in
-          general.
+          - I have always loved games, computers, and technology in general.
         </li>
         <br />
         <li className="triviabits">
-          - The first time i earned money with my programs was doing freelance
-          work.
+          - AWS Certified AI Practitioner and currently studying Databases
+          full-time alongside my work.
         </li>
         <br />
       </ul>
